@@ -1,0 +1,42 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 400px;
+    max-width: 600px;
+    height: 500px;
+    outline: 2px solid crimson;
+    margin: 20px auto;
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.item{
+    width: 440px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 80px;
+}
+
+.item1{
+    background: darkcyan;
+}
+
+.item2{
+    background: cornflowerblue;
+}
+
+.item3{
+    background: coral;
+}
+
+.item4{
+    background: blueviolet;
+}
+

@@ -1,0 +1,113 @@
+/* Se ocultan todos los pasos. El codigo de js se encarga de mostrarlos*/
+.pasos {
+  display: none;
+}
+#formulario {
+  margin: 5%;
+  padding: 2% 5% 2% 5%;
+  background-color: #ececec7a;
+  border:1px solid #8f8f8f69;
+  border-radius: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.pasos .row h2 {
+  text-align: center;
+}
+.pasos label {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.pasos input {
+  border:1px solid #8f8f8f69;
+  border-radius: 5px;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+input:valid {
+  color:green;
+  border-color:green;
+}
+input:invalid {
+  color:red;
+  border-color:red;
+}
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  margin-top:0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+/* Radio */
+.radiofield input {
+  display: none;
+}
+.radiofield label {
+  font-size: 2vw;
+  font-weight: 400;
+}
+.form-check img {
+  width:25%
+}
+input[type='radio']:valid {
+  color:green;
+  border-color:green;
+}
+input[type='radio']:invalid {
+  color:red;
+  border-color:red;
+}
+
+input[type='radio'] + label {
+  background-color: #dfdfdf88;
+  border: 1px solid #8f8f8f69;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10% 0 8% 0;
+}
+input[type='radio'] + label:hover {
+  background-color: #bbbbbb88;
+}
+input[type='radio']:checked + label {
+  background-color: #bbbbbbc5;
+}
+/* Botones de Navegacióm */
+.navform {
+  justify-content:space-around;
+}
+.navform button {
+  margin: 1.5% 0 1.5% 0;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  border:1px solid #8f8f8f69;
+  border-radius: 5px;
+  background-color: #969696;
+  color:#FFFFFF;
+  width:40%;
+}
+.navform button:hover {
+  background-color: #707070;
+}
+.botonPDF {
+  display: block;
+  padding: 0.5% 5% 1% 5%;
+  margin: 0 auto;
+  border:1px solid #8f8f8f69;
+  border-radius: 5px;
+  background-color: #969696;;
+  color:#FFFFFF;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+.respuesta {
+  font-size:1.1rem;
+}
